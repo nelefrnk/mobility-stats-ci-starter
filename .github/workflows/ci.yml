@@ -30,3 +30,8 @@ jobs:
 # läuft auf ubuntu maschine
 # bei einem push oder pr
 # uv sync --locked, --locked ruff check ., ruff format --check .
+
+
+# imports: unused entfernt, getrennt
+# viel leerzeichen und einrückungen
+# variablennamen
