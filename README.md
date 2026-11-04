@@ -419,7 +419,7 @@ Beispiele:
 ```text
 a → rides
 p → csv_path
-x → rides
+x → all_rides
 b → total_duration / counts / threshold
 c → ride
 l → long_rides
@@ -564,12 +564,11 @@ Erweitert euren Job:
 
 ```yaml
   quality:
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.12", "3.13"]
-
-    runs-on: ubuntu-latest
 ```
 
 Jetzt muss `setup-uv` wissen, welche Python-Version der jeweilige Matrix-Lauf verwenden soll:
